@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Опрос для читателей</title>
 </head>
 <body>
-
 <h1>Опрос для читателей библиотеки им. Лермонтова</h1>
 <hr/>
-
 <p>Уважаемые читатели!
     <br/>
     Руководство библиотеки им. Лермонтова старается следить за тем, чтобы в нашей библиотеке была только самая
     современная и востребованная литература. Если вы регулярно посещаете библиотеку, то, пожалуйста, заполните короткую
     анкету, которая позволит нам определиться с закупкой книг на следующий год.
 </p>
-
 <form action="" method="post">
     <label for="name">Укажите Ваше имя:</label>
     <input type="text" id="name" name="name"/>
     <br/><br/>
-
     <label for="age">Сколько Вам лет?</label>
     <input type="text" id="age" name="age"/>
     <br/><br/>
-
-    <label>
-        <p>Какое у Вас образование?</p>
-        <input type="radio" value="1" name="education">9 классов
-        <input type="radio" value="2" name="education">11 классов
-        <input type="radio" value="3" name="education">Среднее специальное
-        <input checked="checked" type="radio" value="4" name="education">Высшее
-        <input type="radio" value="5" name="education">Учёная степень
-    </label>
+    <p>Какое у Вас образование?</p>
+    <input type="radio" value="1" name="education" id="education1">
+    <label for="education1">9 классов</label>
+    <input type="radio" value="2" name="education" id="education2">
+    <label for="education2">11 классов</label>
+    <input type="radio" value="3" name="education" id="education3">
+    <label for="education3">Среднее специальное</label>
+    <input checked="checked" type="radio" value="4" name="education" id="education4">
+    <label for="education4">Высшее</label>
+    <input type="radio" value="5" name="education" id="education5">
+    <label for="education5">Учёная степень</label>
     <br/><br/>
-
     <label for="frequency"><p>Как часто Вы посещаете библиотеку им. Лермонтова?</p></label>
     <select id="frequency" name="frequency">
         <option>Каждую неделю</option>
@@ -43,29 +40,30 @@
         <option>Раз в несколько лет</option>
     </select>
     <br/><br/>
-
-    <label>
-        <p>Отметьте Ваши любимые жанры:</p>
-        <input type="checkbox" name="genre"/>Исторический роман
-        <input type="checkbox" name="genre"/>Классическая проза
-        <input type="checkbox" name="genre"/>Любовные романы
-        <input type="checkbox" name="genre"/>Детектив
-        <input type="checkbox" name="genre"/>Детская литература
-        <input type="checkbox" name="genre"/>Научная фантастика
-        <input type="checkbox" name="genre"/>Фэнтези
-        <input type="checkbox" name="genre"/>Современная литература
-    </label>
+    <p>Отметьте Ваши любимые жанры:</p>
+    <input type="checkbox" name="genre" id="genre1"/>
+    <label for="genre1">Исторический роман</label>
+    <input type="checkbox" name="genre" id="genre2"/>
+    <label for="genre2">Классическая проза</label>
+    <input type="checkbox" name="genre" id="genre3"/>
+    <label for="genre3">Любовные романы</label>
+    <input type="checkbox" name="genre" id="genre4"/>
+    <label for="genre4">Детектив</label>
+    <input type="checkbox" name="genre" id="genre5"/>
+    <label for="genre5">Детская литература</label>
+    <input type="checkbox" name="genre" id="genre6"/>
+    <label for="genre6">Научная фантастика</label>
+    <input type="checkbox" name="genre" id="genre7"/>
+    <label for="genre7">Фэнтези</label>
+    <input type="checkbox" name="genre" id="genre8"/>
+    <label for="genre8">Современная литература</label>
     <br/><br/>
-
     <label for="books">Каких книг Вам не хватает в библиотеке?</label>
     <textarea id="books" name="books"> </textarea>
     <br/><br/>
-
     <button type="submit">Отправить анкету</button>
 </form>
 <hr/>
-
-<a href = "file:///C:/Users/Admin/IdeaProjects/ClientWeb/Html/Library2.html">Вернуться на главную страницу</a>
-
+<a href="Library2.html">Вернуться на главную страницу</a>
 </body>
 </html>
