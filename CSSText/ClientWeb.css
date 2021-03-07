@@ -1,0 +1,25 @@
+* {
+    background-color: #FEEED6;
+    color: #676565;
+    font-family: "Arial", sans-serif;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.list {
+    color: #378DB2;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.course-text {
+    text-indent: 16px;
+}
+
+#full-price {
+    text-decoration: line-through;
+
+}
